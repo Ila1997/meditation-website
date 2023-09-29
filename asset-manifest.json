@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/meditation-website/static/css/main.336fd546.css",
+    "main.js": "/meditation-website/static/js/main.ac1d3f2c.js",
+    "static/js/787.99c40aeb.chunk.js": "/meditation-website/static/js/787.99c40aeb.chunk.js",
+    "static/media/WhiteNoise.mp3": "/meditation-website/static/media/WhiteNoise.1221ce230d37654a4632.mp3",
+    "static/media/Guitar.mp3": "/meditation-website/static/media/Guitar.19e241f28625ada24414.mp3",
+    "static/media/Campfire.mp3": "/meditation-website/static/media/Campfire.d7297d229566b1b6193d.mp3",
+    "static/media/Sea.mp3": "/meditation-website/static/media/Sea.c436758ab3695d1c03d6.mp3",
+    "static/media/Piano.mp3": "/meditation-website/static/media/Piano.b039eb4262180fcfadca.mp3",
+    "static/media/Rain.mp3": "/meditation-website/static/media/Rain.9298e813601e6ab44c8e.mp3",
+    "static/media/meditation.png": "/meditation-website/static/media/meditation.eb9f01c05ad61c9ed421.png",
+    "static/media/lotus.png": "/meditation-website/static/media/lotus.fb34d0506675378ccbde.png",
+    "index.html": "/meditation-website/index.html",
+    "main.336fd546.css.map": "/meditation-website/static/css/main.336fd546.css.map",
+    "main.ac1d3f2c.js.map": "/meditation-website/static/js/main.ac1d3f2c.js.map",
+    "787.99c40aeb.chunk.js.map": "/meditation-website/static/js/787.99c40aeb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.336fd546.css",
+    "static/js/main.ac1d3f2c.js"
+  ]
+}
