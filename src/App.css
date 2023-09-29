@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+*{
+  background-color: rgb(15, 15, 15);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+  background-color: transparent;
+}
+
+.App-header {
+  position: fixed;
+  top: 0;
+  display: flex;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 10px;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 3px;
+  background-color: #97d8ec;
+  border-bottom: 2px solid #ff3388;;
+}
+
+.lotus{
+  max-width: 60px;
+  background-color: transparent;
+}
+
+.header-section{
+  background-color: transparent;
+}
+
+.header-title, .social-icons, .social-icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  color: rgb(25, 27, 27)
+}
+
+.social-icon:hover{
+  transform: translateY(-5px);
+}
+
+
+.items{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: transparent;
+}
+
+.time-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #97d8ec;
+  font-weight: bolder;
+  font-size: larger;
+  margin-bottom: 9px;
+}
+
+.time-display{
+  font-size: 120px;
+  position: relative;
+  top: 20px;
+  background-color: transparent;
+}
+
+.buttons-div{
+  display: grid;
+  row-gap: 15px;
+  border-radius: 4px;
+  position: absolute;
+  left: 14%;
+  top: 50%;
+  grid-column: 10px;
+  -ms-grid-column-align: end;
+  transform: translate(-50%, -50%);
+  background-color: transparent;
+}
+
+.time-btn{
+  font-size: 20px;
+  background-color: #97d8ec;
+  color: #1a1919;
+  font-weight: bold;
+  padding: 10px 10px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.time-btn:hover{
+  background-color: #ff3388;
+  transform: translateY(-5px);
+  box-shadow: 0 0.4px 0.4px -0.4px;
+}
+
+.items-grid{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  padding: 10px;
+  background-color: transparent;
+}
+
+.meditation-img{
+  background-color: transparent;
+  max-width: 35%;
+  position: absolute;
+  top: 50%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+}
+
+.pause{
+  max-width: 45px;
+  position: absolute;
+  top: 67%;
+  left: 47%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+.reset{
+  max-width: 45px;
+  position: absolute;
+  top: 67%;
+  left: 53%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+.footer{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  padding: 17px;
+  font-weight:700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4%;
+  background-color: #97d8ec;
+  border-top: 2px solid #ff3388;
+}
+
+.btn-footer{
+  font-size: medium;
+  font-weight: bold;
+  background-color: transparent;
+  color: #181818;
+  padding: 5px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all .5s ease;
+}
+
+.btn-footer:hover{
+  transform: translateY(-5px);
+  box-shadow: 0 4px 3px -1px #ff3388;
+}
+
+
+/* MEDIA QUERIES */
+
+
+@media only screen and (max-width: 557px){
+  
+  *{
+  font-size: small;
+  }
+
+  .App-header{
+  padding: 1px;
+  }
+
+  .meditation-img{
+  max-width: small;
+  }
+
+  .buttons-div{
+  flex-wrap: wrap;
+  font-size: xx-small;
+  }
+  
+  .reset{
+  font-size: smaller;
+  }
+  
+  .pause{
+  left: 10%;
+  }
+  
+  .time-btn{
+  font-size: small;
+  bottom: auto;
+  }
+  
+  .time-display{
+  font-size: x-small;
+  top: 0.6em;
+  }
+  
+  .footer{
+  padding: 1px;
+  gap: 10px;
+  flex-wrap: wrap;
+  font-size: xx-small;
+  }
+
+  .btn-footer{
+  font-size: 7.5px;
+  background-color: rgb(15, 15, 15);
+  color: #fda8cc;
+  padding: 3px;
+  border: none;
+  border-radius: 9px;
+  cursor: pointer;
+  }
+}
+
+
+@media only screen and (max-width: 558px) and (max-width: 1023px){
+
+  .meditation-img{
+  max-width: 50%;
+  position: absolute;
+  top: 40%;
+  left: 70%;
+  }
+
+
+  .pause{
+  max-width: 3.5em;
+  top: 80%;
+  left: 40%;
+  }
+
+  .reset{
+  max-width: 3.5em;
+  top: 80%;
+  left: 60%;
+  }
+
+  .buttons-div{
+  gap: 1em;
+  position: fixed;
+  top: 40%;
+  left: 30%;
+  }
+
+  .time-display{
+  font-size: 50px;
+  position: fixed;
+  top: 64%;
+  }
+}
+
+
+@media only screen and (min-width: 1441px){
+  .buttons-div{
+  gap: 1em;
+  position: relative;
+  top: 12em;
+  }
+}
