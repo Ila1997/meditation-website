@@ -14,10 +14,10 @@
 This is a meditation website, created with react and it can be used both from laptop and mobile.
 
 LAPTOP VIEW:
-![Immagine](https://i.ibb.co/PCNcqxr/Screenshot-7.png)
+![Immagine](https://i.ibb.co/JnGQcT5/Meditation-screenshot.png)
 
 MOBILE VIEW:
-![Immagine](https://i.ibb.co/sF3bqXk/Screenshot-20230930-150204.jpg)
+![Immagine](https://i.ibb.co/hBr94c7/Meditation-screenshot-mobile.png)
 
 The project required:
 
