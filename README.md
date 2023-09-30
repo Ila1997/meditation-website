@@ -12,7 +12,7 @@
 ![Immagine](https://i.ibb.co/JnGQcT5/Meditation-screenshot.png)
 
 # *About the project:*
-This is a meditation website, created with react and it can be used both from laptop and mobile.
+This is a meditation website, created with React and it can be used both from laptop and mobile.
 
 The project required:
 
