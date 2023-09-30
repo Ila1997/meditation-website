@@ -1,4 +1,4 @@
-# :computer: *Meditation Website*
+# :computer: *MEDITATION WEBSITE*
 
 <div id="top"></div>
 <br />
@@ -8,7 +8,7 @@
   </p>
 </div>
 
-# :link: *Project link: [My portfolio](https://ila1997.github.io/meditation-website/)*
+# :link: *Project link: [My meditation website](https://ila1997.github.io/meditation-website/)*
 ![Immagine](https://i.ibb.co/JnGQcT5/Meditation-screenshot.png)
 
 # *About the project:*
