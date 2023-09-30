@@ -9,15 +9,10 @@
 </div>
 
 # :link: *Project link: [My portfolio](https://ila1997.github.io/meditation-website/)*
+![Immagine](https://i.ibb.co/JnGQcT5/Meditation-screenshot.png)
 
 # *About the project:*
 This is a meditation website, created with react and it can be used both from laptop and mobile.
-
-LAPTOP VIEW:
-![Immagine](https://i.ibb.co/JnGQcT5/Meditation-screenshot.png)
-
-MOBILE VIEW:
-![Immagine](https://i.ibb.co/hBr94c7/Meditation-screenshot-mobile.png)
 
 The project required:
 
