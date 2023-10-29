@@ -13,7 +13,6 @@ import Footer from './components/Footer';
 
 import { PiPauseFill, PiSkipBackBold } from "react-icons/pi";
 
-
 function App() {
   const [countdown, setCountdown] = useState(0);
   const [isPaused, setIsPaused] = useState(false);
@@ -144,7 +143,7 @@ function App() {
               .toString()
               .padStart(2, '0')}:${(countdown % 60).toString().padStart(2, '0')}`}</h3>
           </div>
-
+  
         </div>
 
         <img src={image} alt="meditation-img" className="meditation-img" />
