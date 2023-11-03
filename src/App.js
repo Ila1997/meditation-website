@@ -13,7 +13,6 @@ import Footer from './components/Footer';
 
 import { PiPauseFill, PiSkipBackBold } from "react-icons/pi";
 
-
 function App() {
   const [countdown, setCountdown] = useState(0);
   const [isPaused, setIsPaused] = useState(false);
