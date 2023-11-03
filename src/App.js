@@ -143,7 +143,7 @@ function App() {
               .toString()
               .padStart(2, '0')}:${(countdown % 60).toString().padStart(2, '0')}`}</h3>
           </div>
-
+  
         </div>
 
         <img src={image} alt="meditation-img" className="meditation-img" />
